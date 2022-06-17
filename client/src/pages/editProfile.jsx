@@ -80,7 +80,6 @@ const EditProfile = ({
 
   const handleClick = (e) => {
     const formData = new FormData();
-    console.log("click");
     formData.append("file", files);
 
     const config = {
@@ -98,7 +97,6 @@ const EditProfile = ({
 
   const onSubmit = (data) => {
     const { nickname, password } = data;
-    console.log(data);
     axios
       .put(
         `${localURL}/users/${userId}`,
