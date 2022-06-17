@@ -122,7 +122,7 @@ router.post("/refresh", async (req, res) => {
       process.env.REFRESH_SECRET,
       (err, decoded) => {
         if (err) {
-          console.log(err);
+          console.log("여기" + err);
           return null;
         }
         return decoded;
