@@ -41,7 +41,6 @@ router.post("/signup", async (req, res) => {
       message: `${savedUser.email}.You successfully registered as a JoopJoop member`,
     });
   } catch (err) {
-    console.log(err);
     res.status(500).json(err);
   }
 });
