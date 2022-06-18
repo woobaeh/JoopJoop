@@ -21,7 +21,7 @@ const ModalForgotPasswordSuccess = ({ modalOpen, closeModal }) => {
         <div className="w-10 h-5"></div>
         <p className="text-sm flex items-center text-center">
           이메일로 임시 비밀번호가 발급되었습니다. 임시 비밀번호로 로그인하시고
-          비밀번호를 꼭 수정해주세요.
+          비밀번호를 꼭 수정해주세요!
         </p>
         <div className="w-10 h-5"></div>
         <div className="w-10 h-1">
@@ -33,7 +33,7 @@ const ModalForgotPasswordSuccess = ({ modalOpen, closeModal }) => {
       </div>
     </div>,
 
-    document.getElementById("modal"),
+    document.getElementById("modal")
   );
 };
 
